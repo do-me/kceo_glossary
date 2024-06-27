@@ -1,0 +1,94 @@
+site_name: KCEO Glossary
+site_url: https://kceo.glossary
+site_author: KCEO
+site_description: KCEO
+
+nav:
+    - Home: index.md
+    - Glossary:
+      - Introduction: glossary.md
+    - Changelog: changelog.md
+    - Blog:
+      - blog/index.md
+    - Contact: impressum.md
+
+theme:
+  name: material
+  custom_dir: docs/theme_override_home/
+  # 404 page
+  static_templates:
+    - 404.html
+  # enable light/dark mode
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  # Don't include MkDocs' JavaScript
+  include_search_page: true
+  search_index_only: true
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.footer
+    - content.action.edit
+    - content.code.copy
+    - search.highlight
+    - search.share
+    - search.suggest
+    
+  font: false
+  icon:  # from .icons path. Add to theme override for custom logo.
+    logo: earth  # top left header logo
+    repo: fontawesome/brands/git-alt
+    edit: material/file-edit-outline
+  favicon: assets/favicon.ico # browser tab logo
+
+extra_javascript:
+        - stylesheets/extra.js
+        - stylesheets/tablesort.min.js
+        - stylesheets/tablesort.js
+extra_css:
+        - stylesheets/extra.css
+        - stylesheets/font-awesome-4.7.0/css/font-awesome.min.css
+
+repo_url: https://github.com/do-me/kceo_glossary
+repo_name: do-me/kceo_glossary
+edit_uri: ./edit/main/docs
+
+markdown_extensions:
+  - attr_list
+  - md_in_html # enable lazy loading images via ![!](assets/test.jpg){ loading=lazy }
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - markdown.extensions.toc:
+      baselevel: 1
+      permalink: true
+  - toc:
+      title: Table of Contents
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: true
+  - search:
+      lang: en
+  - glightbox
+  - blog
+  - social
