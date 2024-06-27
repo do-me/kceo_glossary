@@ -1,4 +1,4 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
@@ -8,33 +8,34 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
       - uses: actions/setup-python@v2
         with:
           python-version: 3.11
+          
       - run: pip install "mkdocs-material[imaging]==9.5.18"
       - run: pip install mkdocs-glightbox mkdocs-minify-plugin
       - run: mkdocs gh-deploy --force
           
-      # Node setup
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
 
-      # install gzipper with npm
       - run: npm install
       - run: npm i gzipper -g
 
-      # check out other branch (gh-pages) 
-      - uses: actions/checkout@v2
+      - name: Check out gh-pages branch
+        uses: actions/checkout@v2
         with:
           ref: gh-pages
+          
+      - name: Compress all files
+        run: gzipper compress --include htm,html,css,js,svg,xml,map,json,img,png,jpg,jpeg --zopfli --brotli --remove-larger .
 
-      # compress all files in all directories
-      - run: gzipper compress --include htm,html,css,js,svg,xml,map,json,img,png,jpg,jpeg --zopfli --brotli --remove-larger .
-
-      # commit
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Compress Files
           branch: gh-pages
+          token: ${{ secrets.SECRET_TOKEN }}
           push_options: '--force'
