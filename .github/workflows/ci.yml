@@ -1,3 +1,9 @@
+name: ci
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -8,32 +14,41 @@ jobs:
           persist-credentials: false # Disable default credentials
           token: ${{ secrets.SECRET_TOKEN }} # Use the custom token
 
-      - uses: actions/setup-python@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
         with:
           python-version: 3.11
-          
-      - run: pip install "mkdocs-material[imaging]==9.5.18"
-      - run: pip install mkdocs-glightbox mkdocs-minify-plugin
-      - run: mkdocs gh-deploy --force
 
-      - uses: actions/setup-node@v2
+      - name: Install MkDocs and Plugins
+        run: |
+          pip install "mkdocs-material[imaging]==9.5.18"
+          pip install mkdocs-glightbox mkdocs-minify-plugin
+
+      - name: Deploy with MkDocs
+        run: mkdocs gh-deploy --force
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
           node-version: '14'
 
-      - run: npm install
-      - run: npm i gzipper -g
+      - name: Install Node.js Dependencies
+        run: npm install
 
-      - name: Checkout gh-pages branch
+      - name: Install Gzipper Globally
+        run: npm i gzipper -g
+
+      - name: Checkout gh-pages Branch
         uses: actions/checkout@v2
         with:
           ref: gh-pages
           persist-credentials: false # Disable default credentials
           token: ${{ secrets.SECRET_TOKEN }} # Use the custom token
-          
-      - name: Compress all files
+
+      - name: Compress Files
         run: gzipper compress --include htm,html,css,js,svg,xml,map,json,img,png,jpg,jpeg --zopfli --brotli --remove-larger .
 
-      - name: Commit and push changes
+      - name: Commit and Push Changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Compress Files
