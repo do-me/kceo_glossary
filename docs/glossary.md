@@ -6,6 +6,8 @@ description: Gossary
 
 # KCEO Glossary of Terms and Definitions
 
+This is a test repository.
+
 ## Introduction
 
 The KCEO Glossary of Terms and Definitions is a comprehensive resource
