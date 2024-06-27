@@ -27,46 +27,43 @@ The KCEO Glossary of Terms and Definitions is serves as an indispensable
 tool to cater our needs, promote effective communication, and stay
 abreast of the ever-evolving landscape of Earth observation.
 
-[[start]]
-[reviewer#"Lahsaini",date#20240420,from#start,to#end]
-**** 
-Modify the introduction
-
-****
-[[end]]
 
 ## General terms
 
 ### Ancillary data 
 
 Ancillary data:: Data acquired on-board but not obtained from the main instrument itself (usually provided as part of Level 0 data). They have the primary purpose to serve the processing of main instrument data (e.g. orbit position and velocity of platform).
-{empty}[Source: ESA/CEOS?, modified]
+
+[Source: ESA/CEOS?, modified]
 
 Alternative:
 
 Ancillary data:: Data other than instrument measurements, originating in the instrument itself or from the satellite, required to perform processing of the data. They include orbit data, attitude data, time information, spacecraft engineering data, calibration data, data quality information, and data from other instruments or earth system models.
-{empty}[Source CEOS-ARD PFS template 20220302]
 
-_Data_ acquired in context of an _observation_ required to perform processing
+[Source CEOS-ARD PFS template 20220302]
+
 
 ### Auxiliary data
 
 _Data_ which enhance processing and utilization of main instrument data. The auxiliary data are usually not captured by the same data collection process as the main instrument data. Auxiliary data include data collected by any other platform or process. Examples are e.g.
 meteorological data received from ECWMF/Met. Offices. Auxiliary data help in data processing, but are also data sets in their own right**.**
-{empty}[Source: ESA/CEOS?, modified]
+
+[Source: ESA/CEOS?, modified]
 
 Alternative:
 The data required for instrument processing, which does not originate in the instrument itself or from the satellite. Some auxiliary data will be generated in the ground segment, whilst other data will be provided from external sources.
-{empty}[Source CEOS-ARD PFS template 20220302]
+
+[Source CEOS-ARD PFS template 20220302]
 
 ### Cell
 
 Spatial, spatio-temporal zone or temporal unit of geometry with dimensionality greater than 0, associated with a zone
 NOTE1: All {{cells}} within a DGGS share the dimensionality of the DGGS's parent global geometry. DGGSs with dimensionality of 0 are not
 supported.
-NOTE 2: {{Cells}} are the unit of geometry in a DGGS, and the geometry of the region of space-time occupied by a zone is a {{cell}}.
-NOTE 3: While the terms {{cell}} and zone are often used interchangeably, "zone" is the strictly preferred term. {{Cell}} is entirely appropriate when specifically discussing a zone's geometry or topology.
-{empty}[SOURCE: ISO 19170:2021]
+NOTE 2: Cells are the unit of geometry in a DGGS, and the geometry of the region of space-time occupied by a zone is a cell.
+NOTE 3: While the terms cell and zone are often used interchangeably, "zone" is the strictly preferred term. Cell is entirely appropriate when specifically discussing a zone's geometry or topology.
+
+[SOURCE: ISO 19170:2021]
 
 ### Duration
 non-negative interval quantity of time equal to the difference between the final and initial instants of a time
@@ -75,15 +72,15 @@ NOTE 1: The duration is one of the base quantities in the International System o
 NOTE 2: For the term “duration”, expressions such as “time” or “time interval” are often used, but the term “time” is not recommended in this sense and the term “time interval” is deprecated in this sense to avoid confusion with the concept of “time interval”.
 NOTE 3: The exact duration of a time scale unit depends on the time scale used. For example, the durations of a year, month, week, day, hour or minute, may depend on when they occur [in a Gregorian calendar, a calendar month can have a duration of 28, 29, 30, or 31 days; in a 24-hour clock, a clock minute can have a duration of 59, 60, or 61 seconds, etc.]. Therefore, the exact duration can only be evaluated if the exact duration of each is known.
 NOTE 4: This definition is closely related to NOTE 1 of the terminological entry “duration” in IEC 60050-113:2011, 113–01–13.
-{empty}[SOURCE: ISO 8601-1:2019, 3.1.1.8]
 
-[#_Toc161308962 .anchor]####Earth observation Is a science domain dealing with technologies and methods of collecting and analysing _observations_ about the different spheres (Geosphere, Atmosphere, Hydrosphere, Cryosphere, Biosphere, Anthroposphere) of our planet. This includes _remote-sensing_, such as satellite imagery, as well as in-situ observations, e.g., with ground-based devices.
+[SOURCE: ISO 8601-1:2019, 3.1.1.8]
+
+Earth observation Is a science domain dealing with technologies and methods of collecting and analysing _observations_ about the different spheres (Geosphere, Atmosphere, Hydrosphere, Cryosphere, Biosphere, Anthroposphere) of our planet. This includes _remote-sensing_, such as satellite imagery, as well as in-situ observations, e.g., with ground-based devices.
 
 NOTE 1: Earth Observation (EO) can be categorised by location of the sensor into space-borne, air-borne, sea-borne, ground-based, underwater and underground EO.
-{empty}[Source: modified GEO definition
-https://earthobservations.org/geo_wwd.php]
+[Source: modified GEO definition https://earthobservations.org/geo_wwd.php]
 
-[#_Toc161308963 .anchor]####Earth Observation product
+### Earth Observation product
 
 A representation of a phenomenon that can be coded into information. A
 product serves multiple purposes and cross-domain applications. A
@@ -94,9 +91,9 @@ information.
 NOTE 1: aka geophysical and biophysical parameters (surface temperature,
 leaf area index, etc.)
 
-{empty}[SOURCE: KCEO]
+[SOURCE: KCEO]
 
-[#_Toc161308964 .anchor]#### Earth Observation based output
+### Earth Observation based output
 
 Any data or information derived from EO products. It may be generated
 for addressing specific use cases or user needs. It is the result of any
@@ -107,15 +104,14 @@ geospatial data that changes the property of the original EO product. It
 is the result of a non-invertible operation so that the original EO
 product can’t be recovered.
 
-{empty}[SOURCE: KCEO]
+[SOURCE: KCEO]
 
-[#_Toc161308965 .anchor]####Entity
+### Entity
 
 Something that has separate and distinct existence and objective or
 conceptual reality
 
-{empty}[SOURCE: https://www.iso.org/standard/59221.html[ISO 19119:2016],
-4.1.6]
+[SOURCE: https://www.iso.org/standard/59221.html[ISO 19119:2016],4.1.6]
 
 ### Geographic data 
 
@@ -126,8 +122,7 @@ NOTE 1: _Geographic_ _information_ is also used as a term for
 information concerning phenomena implicitly or explicitly associated
 with a location relative to the Earth.
 
-{empty}[SOURCE: https://www.iso.org/standard/59193.html[ISO 19109:2015],
-4.13; ISO 19109:2005]
+[SOURCE: https://www.iso.org/standard/59193.html[ISO 19109:2015],4.13; ISO 19109:2005]
 
 ### 
 
@@ -156,7 +151,7 @@ network composed of two or more sets of curves in which the members of
 each set intersect the members of the other sets in an algorithmic way
 NOTE 1: The curves partition a space into grid {{cells}}
 
-{empty}[SOURCE: ISO 19123:2005, 4.1.23]
+[SOURCE: ISO 19123:2005, 4.1.23]
 
 ### Information
 
@@ -166,7 +161,7 @@ it a certain meaning that can be understood by the addressee.
 
 NOTE 1: Information depends on _data_ and is targeted.
 
-{empty}[SOURCE: gEOGlos]
+[SOURCE: gEOGlos]
 
 ### In-situ observation
 
@@ -179,10 +174,9 @@ _property_ observed. In-situ _observations_ therefore often require
 either direct physical contact or small distances between a _sensor_ and
 the observed phenomenon.
 
-NOTE 1: _Observations_ not fulfilling these conditions are considered
-_Remote Sensing_.
+NOTE 1: _Observations_ not fulfilling these conditions are considered _Remote Sensing_.
 
-{empty}[Source: own (Peter)]
+[Source: own (Peter)]
 
 ### Laboratory observation
 
@@ -204,8 +198,7 @@ geometries (_positions_ and paths)
 
 EXAMPLE "Madrid", "California".
 
-{empty}[SOURCE: https://www.iso.org/standard/70742.html[ISO 19112:2019],
-(E), 3.1.3, modified, note 2 added]
+[SOURCE: https://www.iso.org/standard/70742.html[ISO 19112:2019],(E), 3.1.3, modified, note 2 added]
 
 ### Measurement
 
@@ -213,7 +206,7 @@ A measurement is an _observation_ of a _quantity_.
 
 NOTE 1: The process of collecting a measurement is called *measuring*.
 
-{empty}[Source: gEOGlos (VIM ?, modified)]
+[Source: gEOGlos (VIM ?, modified)]
 
 ### Period
 
@@ -221,7 +214,7 @@ Particular era or span of time
 
 NOTE 1: Periods are intervals named with a period identifier
 
-{empty}[SOURCE: ISO 19170:2021]
+[SOURCE: ISO 19170:2021]
 
 ### Period identifier
 
@@ -231,13 +224,13 @@ period
 NOTE 1: period identifiers are the temporal equivalent of geographic
 identifiers as specified in ISO 19912
 
-{empty}[SOURCE: ISO 19170:2021]
+[SOURCE: ISO 19170:2021]
 
 ### Quantity
 
 A _property_ whose instances can be compared by ratio or only by order
 
-{empty}[Source: gEOGlos(VIM4 Notes omitted)]
+[Source: gEOGlos(VIM4 Notes omitted)]
 
 ### Remote Sensing (or Remote Observation)
 
@@ -250,7 +243,7 @@ observations.
 
 NOTE 1: the opposite of ‘_remote_’ is ‘_in-situ'_
 
-{empty}[Source: own (Peter)]
+[Source: own (Peter)]
 
 ### Representativity
 
@@ -259,7 +252,7 @@ NOTE 1: the opposite of ‘_remote_’ is ‘_in-situ'_
 NOTE 1: WIGOS metadata standard defines representativeness as the extent
 of the region around the observation of which it is representative
 
-[#_Toc161308980 .anchor]####Service provider
+### Service provider
 
 An institutional body, an organisation or programme that provides
 reliable, trusted (authoritative?) EO information and that has the
@@ -291,20 +284,19 @@ In the context of the KCEO, an entity (person, organization,
 institution, etc.) that is requesting data or information with certain
 characteristics described by needs and/or requirements.
 
-{empty}[SOURCE: KCEO]
+[SOURCE: KCEO]
 
-### 
 
 ### Validation
 
 process of assessing, by independent means, the quality of the data
 products derived from the system outputs
 
-Note 1 to entry: In this part of ISO 19159, the term validation is used
+*Note 1 to entry*: In this part of ISO 19159, the term validation is used
 in a limited sense and only relates to the validation of calibration
 data in order to control their change over time.
 
-{empty}[SOURCE:ISO/TS 19101‑2:2008, 4.41]
+[SOURCE:ISO/TS 19101‑2:2008, 4.41]
 
 Alternative:
 
@@ -322,7 +314,7 @@ The assurance that a product, service, or system meets the needs of the
 customer and other identified stakeholders. It often involves acceptance
 and suitability with external customers.
 
-{empty}[SOURCE: EU-US Land Imaging EO Collaboration]
+[SOURCE: EU-US Land Imaging EO Collaboration]
 
 ### Verification
 
@@ -341,7 +333,7 @@ manufacturer's specifications are met.
 Note 4 to entry: Verification should not be confused with calibration.
 Not every verification is a validation.
 
-{empty}[SOURCE:ISO/IEC Guide 99:2007, 2.44]
+[SOURCE:ISO/IEC Guide 99:2007, 2.44]
 
 Alternative:
 
@@ -357,13 +349,12 @@ Verification serves as a means to evaluate the reliability of the data
 in the absence of a reference dataset, allowing for an assessment of its
 standalone performance. It involves confirming the consistency and
 internal coherence of the data without direct comparison to external
-reference sources. c
-
-{empty}[SOURCE: KCEO]
+reference sources. 
+[SOURCE: KCEO]
 
 ## EO Product attributes
 
-[#_Toc161308986 .anchor]##[.underline]#Area of interest#
+### Area of interest
 
 It is the zone in 2D or 3D for which the information or data is
 requested. It can be discontinuous in space, in other words it can
@@ -373,25 +364,22 @@ Africa, Urban environments, etc.).
 The attribute indicates a request for spatially complete data within the
 AOI zone(s).
 
-[width#"100%",cols#"34%,34%,32%",options#"header",]
 |###
 |Type |Entry format example |Valid units
 |Geographical/administrative identifier |NUTS3, LAU, Natura 2000 site
 |unitless
 |###
 
-{empty}[SOURCE: KCEO]
+[SOURCE: KCEO]
 
-### 
 
-### [.underline]#Band central wavelength#
+### Band central wavelength
 
 A single wavelength value within the sensitivity interval of a
 spectroradiometric sensor which represents the respective band. It could
 be either the mean, the median, the maximum sensitivity, or any other
 reasonable value chosen to be representative.
 
-[width#"100%",cols#"50%,50%",options#"header",]
 |###
 |Entry format example |Valid unit
 |0.545 *μm* |micrometre (*μm*), millimetre (mm), centimetre (cm)
@@ -402,7 +390,7 @@ reasonable value chosen to be representative.
 The probability that the quantity lies in the interval, conditioned on
 the measuring or modelling assumptions.
 
-{empty}[SOURCE: KCEO]
+[SOURCE: KCEO]
 
 ### Coverage interval
 
@@ -411,14 +399,14 @@ https://jcgm.bipm.org/vim/en/2.11.html[true quantity values] of a
 https://jcgm.bipm.org/vim/en/2.3.html[measurand] with a stated
 probability, based on the information available
 
-{empty}[SOURCE: BIPM-VIM]
+[SOURCE: BIPM-VIM]
 
-[#_Toc161308990 .anchor]##[.underline]#Latency#
+### Latency
 
 It is the period between the end of sensing of a phenomenon to the
 beginning of availability of a specific product.
 
-[width#"100%",cols#"50%,50%",options#"header",]
+
 |###
 |Entry format example |Valid unit
 |1 s, 2 h, |second, hour, day, month, year
@@ -429,7 +417,7 @@ automated data +
 processing or network transmission between the occurrence of an event
 and the use of the processed data.”
 
-{empty}[SOURCE: KCEO]
+[SOURCE: KCEO]
 
 ### [.underline]#Location error#
 
