@@ -6,7 +6,10 @@ site_description: KCEO
 nav:
     - Home: index.md
     - Glossary:
-      - Introduction: glossary.md
+      - Term 1: term 1.md
+      - Term 2: term 2.md
+      - Term 3: term 3.md
+      #- Introduction: glossary.md
     - Changelog: changelog.md
     - Blog:
       - blog/index.md
@@ -45,6 +48,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    - navigation.instant
     
   font: false
   icon:  # from .icons path. Add to theme override for custom logo.
@@ -92,3 +96,5 @@ plugins:
   - glightbox
   - blog
   - social
+  - privacy:
+      enabled: !ENV [CI, false]
