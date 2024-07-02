@@ -25,5 +25,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install "mkdocs-material[imaging]==9.5.18"
-      - run: pip install mkdocs-glightbox mkdocs-minify-plugin
+      - run: pip install mkdocs-glightbox mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2
       - run: mkdocs gh-deploy --force

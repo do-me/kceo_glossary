@@ -98,6 +98,11 @@ plugins:
           remove_comments: true
   - search:
       lang: en
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: do-me/kceo_glossary
+      branch: main
   - glightbox
   - blog
   - social
