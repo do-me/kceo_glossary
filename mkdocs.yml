@@ -9,6 +9,7 @@ nav:
       - Term 1: term 1.md
       - Term 2: term 2.md
       - Term 3: term 3.md
+      - Graph: mermaid.md
       #- Introduction: glossary.md
     - Changelog: changelog.md
     - Blog:
@@ -74,7 +75,11 @@ markdown_extensions:
   - md_in_html # enable lazy loading images via ![!](assets/test.jpg){ loading=lazy }
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - markdown.extensions.toc:
       baselevel: 1
       permalink: true
