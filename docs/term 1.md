@@ -6,16 +6,25 @@ description: Term 1
 
 # Term 1 
 
-## Definition
+## CEOS
 
-### CEOS
+### Definition
 CEOS defined Term 1 as ...
 
-### ISO 
+### Notes 
+
+### Examples 
+
+### Sources
+
+
+## ISO 
+
+### Definition
 According to ISO term 1 is defined as ...
 
-## Notes 
+### Notes 
 
-## Examples 
+### Examples 
 
-## Sources
+### Sources
