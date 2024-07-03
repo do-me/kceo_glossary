@@ -7,8 +7,34 @@ description: Term 1
 
 ## 1 In-Situ {#term1_ceos_common_definition}
 
+A)
+
+**CEOS comittee defined Term 1 as ...**
+
+OR 
+
+B)
+
+> CEOS comittee defined Term 1 as ...
+
+OR 
+
+C) 
+
+`CEOS comittee defined Term 1 as ...`
+
+OR 
+
+D)
+
+???+ note "Definition"
+
+    CEOS comittee defined Term 1 as ...
+
+
 ### Definition
 CEOS comittee defined Term 1 as ...
+
 
 ### Notes 
 
