@@ -3,13 +3,10 @@ title: Term 1
 description: Term 1
 ---
 
-
 # Term 1 
 
-## CEOS
-
-### Definition
-CEOS defined Term 1 as ...
+## Definition 1 {#term1_ceos_common_definition}
+CEOS comittee defined Term 1 as ...
 
 ### Notes 
 
@@ -17,11 +14,8 @@ CEOS defined Term 1 as ...
 
 ### Sources
 
-
-## ISO 
-
-### Definition
-According to ISO term 1 is defined as ...
+## Definition 2 {#term1_ceos_narrow_definition}
+According to the CEOS working group of ... term 1 is defined as ...
 
 ### Notes 
 
