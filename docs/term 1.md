@@ -5,36 +5,9 @@ description: Term 1
 
 # In-Situ
 
-## 1 In-Situ {#term1_ceos_common_definition}
+## 1 Definition {#term1_ceos_common_definition}
 
-A)
-
-**CEOS comittee defined Term 1 as ...**
-
-OR 
-
-B)
-
-> CEOS comittee defined Term 1 as ...
-
-OR 
-
-C) 
-
-`CEOS comittee defined Term 1 as ...`
-
-OR 
-
-D)
-
-???+ note "Definition"
-
-    CEOS comittee defined Term 1 as ...
-
-
-### Definition
 CEOS comittee defined Term 1 as ...
-
 
 ### Notes 
 
@@ -48,7 +21,6 @@ ___
 
 ## 2 In-Situ {#term1_ceos_narrow_definition}
 
-### Definition
 According to the CEOS working group of ... term 1 is defined as ...
 
 ### Notes 
@@ -63,7 +35,6 @@ ___
 
 ## 3 In-Situ {#term1_iso_definition}
 
-### Definition
 According to the ISO working group of ... term 1 is defined as ...
 
 ### Notes 
