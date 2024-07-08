@@ -6,9 +6,17 @@ site_description: KCEO
 nav:
     - Home: index.md
     - Glossary:
-      - Term 1: term 1.md
-      - Term 2: term 2.md
-      - Term 3: term 3.md
+      - Introduction: introduction.md
+
+      - Observation: observation.md
+      - In-Situ Observation: in-situ_observation.md
+      - Entity: entity.md
+      - Information: information.md
+      - Location: location.md
+      - Measurement: measurement.md
+      - Measurand: measurand .md
+      - Uncertainty: uncertainty.md
+
       - Graph: mermaid.md
       #- Introduction: glossary.md
     - Changelog: changelog.md
@@ -106,5 +114,4 @@ plugins:
   - glightbox
   - blog
   - social
-  - privacy:
-      enabled: !ENV [CI, false]
+  - privacy

@@ -47,7 +47,7 @@ def insert_hyperlinks(file_path, terms):
             
             # Avoid altering headings by ensuring replacements are only made in non-heading lines
             pattern = re.compile(r'\b' + re.escape(term) + r'\b', re.IGNORECASE)
-            replacement = f'[{term}](/{" ".join(term.split())})'
+            replacement = f'[{term}](../{" ".join(term.split())})'
             line = pattern.sub(lambda match: replacement if not re.search(rf'\[{re.escape(match.group(0))}\]\(.*?\)', match.string) else match.group(0), line)
         
         new_content.append(line)
@@ -72,5 +72,5 @@ def main(directory, exclude_files):
 
 if __name__ == "__main__":
     directory = './docs'  # Replace with your directory path
-    exclude_files = ['changelog.md', 'impressum.md', 'index.md', 'glossary.md']  # Files to be excluded
+    exclude_files = ['changelog.md', 'impressum.md', 'index.md', 'glossary.md', 'introduction.md']  # Files to be excluded
     main(directory, exclude_files)

@@ -51,5 +51,5 @@ def main(directory, exclude_files):
 
 if __name__ == "__main__":
     directory = './docs'  # Replace with your directory path
-    exclude_files = ['changelog.md', 'impressum.md', 'index.md', 'glossary.md']  # Files to be excluded
+    exclude_files = ['changelog.md', 'impressum.md', 'index.md', 'glossary.md', 'introduction.md']  # Files to be excluded
     main(directory, exclude_files)
