@@ -7,6 +7,8 @@ nav:
     - Home: index.md
     - Glossary:
         - Introduction: introduction.md
+        - Dependency Graph: mermaid.md
+        - Tags: tags.md
         - Terms:
             - Observation: observation.md
             - In-Situ Observation: in-situ_observation.md
@@ -35,8 +37,6 @@ nav:
             - User: user.md
             - Validation: validation.md
             - Verification: verification.md
-        - Misc:
-            - Dependency Graph: mermaid.md
 
     - Changelog: changelog.md
     - Blog:
@@ -131,6 +131,9 @@ plugins:
   - git-committers:
       repository: do-me/kceo_glossary
       branch: main
+      enabled: !ENV [CI, false]
+  - tags:
+      tags_file: tags.md
   - glightbox
   - blog
   - social
