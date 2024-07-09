@@ -13,6 +13,14 @@ def format_node_link(term):
     # Create the relative URL for the node
     return f'../{term.lower().replace(" ", "_")}'
 
+def extract_relevant_section(content):
+    # Extract the text between "## 1 Definition" and "### Notes"
+    pattern = re.compile(r'## 1 Definition(.*?)### Notes', re.DOTALL)
+    match = pattern.search(content)
+    if match:
+        return match.group(1)
+    return ""
+
 def parse_markdown_files(directory, exclude_files):
     graph = {}
     md_link_pattern = re.compile(r'\[([^\]]+)\]\(([^\)]+)\)')
@@ -23,7 +31,8 @@ def parse_markdown_files(directory, exclude_files):
                 file_path = os.path.join(root, file)
                 with open(file_path, 'r') as f:
                     content = f.read()
-                    matches = md_link_pattern.findall(content)
+                    relevant_section = extract_relevant_section(content)
+                    matches = md_link_pattern.findall(relevant_section)
                     for match in matches:
                         term, link = match
                         # Skip internet links and links with file extensions such as .html
