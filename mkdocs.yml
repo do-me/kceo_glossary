@@ -16,6 +16,18 @@ nav:
             - Measurement: measurement.md
             - Measurand: measurand.md
             - Uncertainty: uncertainty.md
+            - Object: object.md
+            - Period Identifier: period_identifier.md
+            - Phenomenon: phenomenon.md
+            - Place: place.md
+            - Position: position.md
+            - Property: property.md
+            - Quantity: quantity.md
+            - Reference: reference.md
+            - Remote Sensing: remote_sensing.md
+            - Representativeness: representativeness.md
+            - Sample: sample.md
+            - Sensor: sensor.md
         - Misc:
             - Dependency Graph: mermaid.md
 

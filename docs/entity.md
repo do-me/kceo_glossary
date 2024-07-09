@@ -10,7 +10,7 @@ Something that has separate and distinct existence and objective or conceptual r
 
 ### Notes 
 - the observed value is usually complemented by an [Uncertainty](../uncertainty)
-- an [Observation](../observation) (results) represents a sample of phenomenon (otherwise it would be identical with the phenomenon) 
+- an [Observation](../observation) (results) represents a [Sample](../sample) of [Phenomenon](../phenomenon) (otherwise it would be identical with the [Phenomenon](../phenomenon)) 
 
 ### Examples 
 

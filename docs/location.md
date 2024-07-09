@@ -6,10 +6,10 @@ title: Location
 
 ## 1 Definition 
 
-Particular place referenced by an identifier.
+Particular [Place](../place) referenced by an identifier.
 
 ### Notes 
-- While a (geo)location identifies a geographic place, it may also be associated with objects other than the Earth.
+- While a (geo)location identifies a geographic [Place](../place), it may also be associated with objects other than the Earth.
 - While location in principle covers 0- to 3-dimensional spatial geometries, it should not be used for 0- and 1-dimensional geometries (positions and paths)
 
 ### Examples 
