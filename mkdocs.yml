@@ -6,19 +6,19 @@ site_description: KCEO
 nav:
     - Home: index.md
     - Glossary:
-      - Introduction: introduction.md
+        - Introduction: introduction.md
+        - Terms:
+            - Observation: observation.md
+            - In-Situ Observation: in-situ_observation.md
+            - Entity: entity.md
+            - Information: information.md
+            - Location: location.md
+            - Measurement: measurement.md
+            - Measurand: measurand.md
+            - Uncertainty: uncertainty.md
+        - Misc:
+            - Dependency Graph: mermaid.md
 
-      - Observation: observation.md
-      - In-Situ Observation: in-situ_observation.md
-      - Entity: entity.md
-      - Information: information.md
-      - Location: location.md
-      - Measurement: measurement.md
-      - Measurand: measurand.md
-      - Uncertainty: uncertainty.md
-
-      - Graph: mermaid.md
-      #- Introduction: glossary.md
     - Changelog: changelog.md
     - Blog:
       - blog/index.md
@@ -52,6 +52,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     - navigation.footer
+    - navigation.expand
     - content.action.edit
     - content.code.copy
     - search.highlight
