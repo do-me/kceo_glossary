@@ -28,6 +28,13 @@ nav:
             - Representativeness: representativeness.md
             - Sample: sample.md
             - Sensor: sensor.md
+            - Copernicus Service Provider: copernicus_service_provider.md
+            - Expanded Uncertainty: expanded_uncertainty.md
+            - Standard Uncertainty: standard_uncertainty.md
+            - Trait: trait.md
+            - User: user.md
+            - Validation: validation.md
+            - Verification: verification.md
         - Misc:
             - Dependency Graph: mermaid.md
 

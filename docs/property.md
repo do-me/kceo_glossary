@@ -6,7 +6,7 @@ title: Property
 
 ## 1 Definition
 
-A trait which is observable.
+A [Trait](../trait) which is observable.
 
 ### Notes 
 
