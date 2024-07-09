@@ -1,15 +1,13 @@
 ```mermaid
 flowchart TD;
-    id_uncertainty(uncertainty) --> id_in-situ_observation(in-situ_observation);
-    id_uncertainty(uncertainty) --> id_entity(entity);
-    id_uncertainty(uncertainty) --> id_observation(observation);
-    id_observation(observation) --> id_in-situ_observation(in-situ_observation);
-    id_observation(observation) --> id_entity(entity);
-    id_observation(observation) --> id_measurement(measurement);
-    id_59221.html(59221.html) --> id_entity(entity);
-    id_70742.html(70742.html) --> id_location(location);
-    id_measurement(measurement) --> id_measurand(measurand);
-    id_measurement(measurement) --> id_uncertainty(uncertainty);
-    id_measurand(measurand) --> id_uncertainty(uncertainty);
-    id_information(information) --> id_uncertainty(uncertainty);
+    id_uncertainty(["<a href='../uncertainty'>Uncertainty</a>"]) --> id_observation(["<a href='../observation'>Observation</a>"]);
+    id_uncertainty(["<a href='../uncertainty'>Uncertainty</a>"]) --> id_in-situ_observation(["<a href='../in-situ_observation'>In-situ Observation</a>"]);
+    id_uncertainty(["<a href='../uncertainty'>Uncertainty</a>"]) --> id_entity(["<a href='../entity'>Entity</a>"]);
+    id_observation(["<a href='../observation'>Observation</a>"]) --> id_measurement(["<a href='../measurement'>Measurement</a>"]);
+    id_observation(["<a href='../observation'>Observation</a>"]) --> id_in-situ_observation(["<a href='../in-situ_observation'>In-situ Observation</a>"]);
+    id_observation(["<a href='../observation'>Observation</a>"]) --> id_entity(["<a href='../entity'>Entity</a>"]);
+    id_measurement(["<a href='../measurement'>Measurement</a>"]) --> id_measurand(["<a href='../measurand'>Measurand</a>"]);
+    id_measurement(["<a href='../measurement'>Measurement</a>"]) --> id_uncertainty(["<a href='../uncertainty'>Uncertainty</a>"]);
+    id_measurand(["<a href='../measurand'>Measurand</a>"]) --> id_uncertainty(["<a href='../uncertainty'>Uncertainty</a>"]);
+    id_information(["<a href='../information'>Information</a>"]) --> id_uncertainty(["<a href='../uncertainty'>Uncertainty</a>"]);
 ```

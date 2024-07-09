@@ -5,6 +5,14 @@ def sanitize_node_id(term):
     # Replace spaces with underscores and prepend 'id_'
     return 'id_' + re.sub(r'\s+', '_', term.strip()).lower()
 
+def format_node_label(term):
+    # Replace underscores with spaces and capitalize all words
+    return ' '.join(word.capitalize() for word in term.split('_'))
+
+def format_node_link(term):
+    # Create the relative URL for the node
+    return f'../{term.lower().replace(" ", "_")}'
+
 def parse_markdown_files(directory, exclude_files):
     graph = {}
     md_link_pattern = re.compile(r'\[([^\]]+)\]\(([^\)]+)\)')
@@ -18,6 +26,9 @@ def parse_markdown_files(directory, exclude_files):
                     matches = md_link_pattern.findall(content)
                     for match in matches:
                         term, link = match
+                        # Skip internet links and links with file extensions such as .html
+                        if link.startswith('http://') or link.startswith('https://') or link.endswith('.html'):
+                            continue
                         link = os.path.normpath(link.strip('/'))
                         parent_file = link + '.md'
                         if os.path.basename(parent_file) not in exclude_files:
@@ -33,12 +44,19 @@ def create_mermaid_diagram(graph):
     for parent, children in graph.items():
         parent_node = os.path.splitext(os.path.basename(parent))[0]
         parent_node_id = sanitize_node_id(parent_node)
+        parent_node_label = format_node_label(parent_node)
+        parent_node_link = format_node_link(parent_node)
         node_ids[parent_node] = parent_node_id
         for child in children:
             child_node = os.path.splitext(os.path.basename(child))[0]
             child_node_id = sanitize_node_id(child_node)
+            child_node_label = format_node_label(child_node)
+            child_node_link = format_node_link(child_node)
             node_ids[child_node] = child_node_id
-            mermaid_diagram += f'    {parent_node_id}({parent_node}) --> {child_node_id}({child_node});\n'
+            mermaid_diagram += (
+                f'    {parent_node_id}(["<a href=\'{parent_node_link}\'>{parent_node_label}</a>"]) --> '
+                f'{child_node_id}(["<a href=\'{child_node_link}\'>{child_node_label}</a>"]);\n'
+            )
     return mermaid_diagram
 
 def main(directory, exclude_files):
