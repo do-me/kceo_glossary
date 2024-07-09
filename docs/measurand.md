@@ -6,7 +6,7 @@ title: Measurand
 
 ## 1 Definition 
 
-Particular quantity subject to [Measurement](../Measurement).
+Particular quantity subject to [Measurement](../measurement).
 
 ### Notes 
 

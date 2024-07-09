@@ -47,7 +47,7 @@ def insert_hyperlinks(file_path, terms):
             
             # Avoid altering headings by ensuring replacements are only made in non-heading lines
             pattern = re.compile(r'\b' + re.escape(term) + r'\b', re.IGNORECASE)
-            replacement = f'[{term}](../{" ".join(term.split())})'
+            replacement = f'[{term}](../{" ".join(term.split()).lower()})'
             line = pattern.sub(lambda match: replacement if not re.search(rf'\[{re.escape(match.group(0))}\]\(.*?\)', match.string) else match.group(0), line)
         
         new_content.append(line)

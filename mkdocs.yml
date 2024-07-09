@@ -14,7 +14,7 @@ nav:
       - Information: information.md
       - Location: location.md
       - Measurement: measurement.md
-      - Measurand: measurand .md
+      - Measurand: measurand.md
       - Uncertainty: uncertainty.md
 
       - Graph: mermaid.md

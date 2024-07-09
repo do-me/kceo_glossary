@@ -9,8 +9,8 @@ title: Entity
 Something that has separate and distinct existence and objective or conceptual reality.
 
 ### Notes 
-- the observed value is usually complemented by an [Uncertainty](../Uncertainty)
-- an [Observation](../Observation) (results) represents a sample of phenomenon (otherwise it would be identical with the phenomenon) 
+- the observed value is usually complemented by an [Uncertainty](../uncertainty)
+- an [Observation](../observation) (results) represents a sample of phenomenon (otherwise it would be identical with the phenomenon) 
 
 ### Examples 
 

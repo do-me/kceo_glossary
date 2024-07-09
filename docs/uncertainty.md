@@ -6,7 +6,7 @@ title: Uncertainty
 
 ## 1 Definition
 
-A parameter, associated with the result of a [Measurement](../Measurement), that characterises the dispersion of the values that could reasonably be attributed to the [Measurand](../Measurand).
+A parameter, associated with the result of a [Measurement](../measurement), that characterises the dispersion of the values that could reasonably be attributed to the [Measurand](../measurand).
 
 ### Notes 
 
@@ -19,7 +19,7 @@ ___
 
 ## 2 Definition
 
-Parameter characterizing the dispersion of the values being attributed to a [Measurand](../Measurand), based on the [Information](../Information) used.
+Parameter characterizing the dispersion of the values being attributed to a [Measurand](../measurand), based on the [Information](../information) used.
 
 ### Notes 
 
@@ -45,10 +45,10 @@ ___
 
 ## 4 Definition
 
-Parameter, associated with the result of [Measurement](../Measurement), that characterizes the dispersion of values that could reasonably be attributed to the [Measurand](../Measurand).
+Parameter, associated with the result of [Measurement](../measurement), that characterizes the dispersion of values that could reasonably be attributed to the [Measurand](../measurand).
 
 ### Notes 
-- When the quality of accuracy or precision of measured values, such as coordinates, is to be characterized quantitatively, the quality parameter is an estimate of the uncertainty of the [Measurement](../Measurement) results. Because accuracy is a qualitative concept, one should not use it quantitatively, that is associate numbers with it; numbers should be associated with measures of uncertainty instead.
+- When the quality of accuracy or precision of measured values, such as coordinates, is to be characterized quantitatively, the quality parameter is an estimate of the uncertainty of the [Measurement](../measurement) results. Because accuracy is a qualitative concept, one should not use it quantitatively, that is associate numbers with it; numbers should be associated with measures of uncertainty instead.
 
 ### Examples 
 
