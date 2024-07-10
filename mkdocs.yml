@@ -8,6 +8,7 @@ nav:
     - Glossary:
         - Introduction: introduction.md
         - Dependency Graph: mermaid.md
+        - Topology: glossary_topology.md
         - Tags: tags.md
         - Terms:
             - Observation: observation.md
