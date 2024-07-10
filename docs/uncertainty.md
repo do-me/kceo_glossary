@@ -19,15 +19,17 @@ ___
 
 ## 2 Definition
 
-Parameter characterizing the dispersion of the values being attributed to a [Measurand](../measurand), based on the [Information](../information) used.
+Non-negative parameter, associated with data, which characterizes the dispersion of the values [of a [Trait](../trait) ]that could reasonably be attributed to a [Phenomenon](../phenomenon) [by means of sensing or modelling].
 
 ### Notes 
+- In case of quantitative(continuous) data the uncertainty may be, for example, a standard deviation (or a given multiple of it), or the half-width of an interval having a stated level of confidence. (see e.g. standard and [Expanded Uncertainty](../expanded uncertainty))
+- For qualitative (categorical?) data uncertainty may be, for example, expressed by commission and omission (‘confusion matrix’) or overall errors.
+
 
 ### Examples 
 
 ### Sources
-- VIM4: 3.1
-
+- modified from GUM, VIM4 :3.1, FIDUCEO, Notes added
 ___
 
 ## 3 Definition
@@ -59,15 +61,12 @@ ___
 
 ## 5 Definition
 
-Non-negative parameter, associated with data, which characterizes the dispersion of the values [of a [Trait](../trait) ]that could reasonably be attributed to a [Phenomenon](../phenomenon) [by means of sensing or modelling].
+Parameter characterizing the dispersion of the values being attributed to a [Measurand](../measurand), based on the [Information](../information) used.
 
 ### Notes 
-- In case of quantitative(continuous) data the uncertainty may be, for example, a standard deviation (or a given multiple of it), or the half-width of an interval having a stated level of confidence. (see e.g. standard and [Expanded Uncertainty](../expanded uncertainty))
-- For qualitative (categorical?) data uncertainty may be, for example, expressed by commission and omission (‘confusion matrix’) or overall errors.
-
 
 ### Examples 
 
 ### Sources
-- modified from GUM, VIM4 :3.1, FIDUCEO, Notes added
+- VIM4: 3.1
 
