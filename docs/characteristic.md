@@ -1,0 +1,5 @@
+---
+title: Characteristic
+---
+
+# Characteristic

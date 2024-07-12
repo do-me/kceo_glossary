@@ -4,14 +4,9 @@ description: Introduction
 
 # Introduction
 
-The KCEO Glossary of Terms and Definitions is serves as an indispensable tool to cater our needs, promote effective communication, and stay abreast of the ever-evolving landscape Earth [Observation](../Observation). 
+The KCEO Glossary of Terms and Definitions serves as a reference for everyone involved in Earth Observation. We cover a wide range of terms, concepts, and definitions relevant to various EO disciplines such as remote sensing, satellite imagery, geospatial analysis, climate adaptation, and more. We strive to consolidate definitions where appropriate, while also acknowledging the necessity of their plurality when needed. Unlike many other online glossaries, our aim is to build an interactive and participative glossary for the EO community. Contributions are welcome and can be discussed in GitHub discussions, issues, or directly in pull requests.
 
-The KCEO Glossary of Terms and Definitions is a comprehensive resource intended as reference guide for those seeking clarity and a deeper understanding of Earth [Observation](../Observation). This extensive compilation brings together a wide range of terms, concepts, and definitions that are directly relevant to the wider domain, encompassing various disciplines such as remote sensing, satellite imagery, geospatial analysis, climate adaptation, and more. By acting as a reliable compass, this glossary helps to navigate the intricate and specialized terminology associated with Earth [Observation](../Observation), ensuring effective communication and knowledge sharing.
-
-As a living document, the KCEO Glossary of Terms and Definitions is in a constant state of evolution and is continuously adapted to incorporate emerging concepts. This ensures that it remains up to date. 
-
-The KCEO Glossary of Terms and Definitions is serves as an indispensable tool to cater our needs, promote effective communication, and stay abreast of the ever-evolving landscape of Earth [Observation](../Observation).
-
+As a living document, the KCEO Glossary of Terms and Definitions is in a constant state of evolution, continuously adapting to incorporate emerging concepts. Our release cycle with versioning guarantees persistent backlinks over time, with the latest online version always reflecting the consensus of the latest community changes.
 
 ## Resources & Reference Glossaries
 

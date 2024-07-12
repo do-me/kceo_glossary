@@ -1,4 +1,4 @@
-# KCEO glossary
+# KCEO Glossary
 
 Test repo for KCEO glossary
 
