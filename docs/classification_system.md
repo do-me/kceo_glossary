@@ -1,5 +1,16 @@
 ---
-title: Classification system
+title: Classification System
 ---
 
-# Classification system
+# Classification System
+
+## 1 Definition
+
+The nomenclature used to classify information into categorical thematic classes (e.g., EUNIS, MAES ecosystems, Corine Land Cover, LCCS).
+
+### Notes 
+
+### Examples 
+
+### Sources 
+- KCEO
