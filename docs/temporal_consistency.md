@@ -1,5 +1,16 @@
 ---
-title: Temporal consistency
+title: Temporal Consistency
 ---
 
-# Temporal consistency
+# Temporal Consistency
+
+## 1 Definition
+
+It indicates that the temporal statistical properties of the sample depend only on the underlying physical processes and don’t depend on other factors such as fusing different products or sensors.
+
+### Notes 
+
+### Examples 
+
+### Sources 
+- KCEO
