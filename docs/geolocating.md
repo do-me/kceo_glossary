@@ -6,7 +6,7 @@ title: Geolocating
 
 ## 1 Definition
 
-Geopositioning an object using a Physical Sensor Model (3.63) or a True Replacement Model (3.86).
+Geopositioning an object using a Physical Sensor Model or a True Replacement Model.
 
 ### Notes 
 
