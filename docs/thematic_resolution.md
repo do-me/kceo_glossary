@@ -1,5 +1,16 @@
 ---
-title: Thematic resolution
+title: Thematic Resolution
 ---
 
-# Thematic resolution
+# Thematic Resolution
+
+## 1 Definition
+
+The level of categorical detail of information expressed by the number of classes.
+
+### Notes 
+
+### Examples 
+
+### Sources 
+- CGLS
