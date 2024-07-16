@@ -4,9 +4,7 @@ description: Introduction
 
 # Introduction
 
-The KCEO Glossary of Terms and Definitions serves as a reference for everyone involved in Earth Observation (EO) and related geospatial sciences. We cover a wide range of terms, concepts, and definitions relevant to various EO and neighbouring disciplines such as remote and in-situ measurements, geospatial analysis, climate adaptation, and so on. We strive to build on established terminology as much as possible, consolidate definitions where appropriate, while also acknowledging the necessity of plurality when needed. Unlike many other online glossaries, our aim is to build an instructive, interactive, and participative glossary for the EO community. Contributions are welcome and can be discussed in GitHub discussions, issues, or directly in pull requests.
-
-As a living document, the KCEO Glossary of Terms and Definitions is in a constant state of evolution, continuously adapting to incorporate emerging concepts. Our release cycle with versioning guarantees persistent backlinks over time, with the latest online version always reflecting the consensus of the latest community changes.
+The KCEO Glossary of Terms and Definitions serves as a reference for everyone involved in Earth Observation. We cover a wide range of terms, concepts, and definitions relevant to various EO disciplines such as remote sensing, satellite imagery, geospatial analysis, climate adaptation, and more. We strive to consolidate definitions where appropriate, while also acknowledging the necessity of their plurality when needed. Unlike many other online glossaries, our aim is to build an interactive and participative glossary for the EO community. As a living document, the KCEO Glossary of Terms and Definitions is in a constant state of evolution, continuously adapting while enabling full traceability.
 
 ## Resources & Reference Glossaries
 
