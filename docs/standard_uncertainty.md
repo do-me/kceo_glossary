@@ -6,7 +6,7 @@ title: Standard Uncertainty
 
 ## 1 Definition
 
-Standard [Uncertainty](../uncertainty) describes the standard deviation of the probability distribution describing the spread of possible values [in quantitative/continuous data].
+Standard [Uncertainty](../uncertainty) describes the standard deviation of the probability distribution describing the spread of possible values [in quantitative/continuous [Data](../data)].
 
 ### Notes 
 

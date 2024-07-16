@@ -9,7 +9,7 @@ title: Period
 Particular era or span of time.
 
 ### Notes 
-- Periods are intervals named with a period identifier. 
+- Periods are intervals named with a [Period identifier](../period identifier). 
 
 ### Examples 
 

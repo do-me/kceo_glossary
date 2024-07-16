@@ -6,7 +6,7 @@ title: Characteristic
 
 ## 1 Definition
 
-Distinguishing feature
+Distinguishing [Feature](../feature)
 
 ### Notes 
 - A characteristic can be inherent or assigned.
@@ -28,7 +28,7 @@ ___
 
 ## 2 Definition
 
-Abstraction of a property of an object or of a set of objects.
+Abstraction of a [Property](../property) of an [Object](../object) or of a set of objects.
 
 ### Notes 
 - Characteristics are used for describing concepts.

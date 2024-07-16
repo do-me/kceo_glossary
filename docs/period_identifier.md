@@ -6,10 +6,10 @@ title: Period Identifier
 
 ## 1 Definition
 
-Temporal [Reference](../reference) in the for of a label or code that identifies a period.
+Temporal [Reference](../reference) in the for of a label or code that identifies a [Period](../period).
 
 ### Notes 
-- period identifiers are the temporal equivalent of geographic identifiers as specified in ISO 19912
+- [Period](../period) identifiers are the temporal equivalent of geographic identifiers as specified in ISO 19912
 
 ### Examples 
 

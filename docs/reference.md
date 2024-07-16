@@ -18,7 +18,7 @@ ___
 
 ## 2 Definition
 
-A sort of data acquired with an [Uncertainty](../uncertainty) significantly lower (quantify?) than that of the data it is being compared with.
+A sort of [Data](../data) acquired with an [Uncertainty](../uncertainty) significantly lower (quantify?) than that of the [Data](../data) it is being compared with.
 
 ### Notes 
 

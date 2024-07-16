@@ -6,10 +6,10 @@ title: Geographic Data
 
 ## 1 Definition
 
-Data with implicit or explicit reference to a location relative to the Earth.
+[Data](../data) with implicit or explicit [Reference](../reference) to a [Location](../location) relative to the Earth.
 
 ### Notes 
-- Geographic information is also used as a term for information concerning phenomena implicitly or explicitly associated with a location relative to the Earth.
+- Geographic [Information](../information) is also used as a term for [Information](../information) concerning phenomena implicitly or explicitly associated with a [Location](../location) relative to the Earth.
 
 ### Examples 
 

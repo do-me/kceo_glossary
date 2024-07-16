@@ -6,7 +6,7 @@ title: Sensor
 
 ## 1 Definition
 
-A (technical?) device or instrument suited (through physical/chemical interaction) to measure one or more properties of a [Phenomenon](../phenomenon) and thus collect factual/objective data.
+A (technical?) device or instrument suited (through physical/chemical interaction) to measure one or more properties of a [Phenomenon](../phenomenon) and thus collect factual/objective [Data](../data).
 
 ### Notes 
 - Sensing is therefore a synonym for [Observation](../observation) (the process).

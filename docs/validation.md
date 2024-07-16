@@ -6,10 +6,10 @@ title: Validation
 
 ## 1 Definition
 
-Process of assessing, by independent means, the quality of the data products derived from the system outputs.
+Process of assessing, by independent means, the quality of the [Data](../data) products derived from the system outputs.
 
 ### Notes 
-- In this part of ISO 19159, the term validation is used in a limited sense and only relates to the validation of calibration data in order to control their change over time.
+- In this part of ISO 19159, the term validation is used in a limited sense and only relates to the validation of [Calibration](../calibration) [Data](../data) in order to control their change over time.
 
 ### Examples 
 
@@ -20,10 +20,10 @@ ___
 
 ## 2 Definition
 
-Validation aims to verify that the specified requirements are achieved or compliant. This involves comparing  mission products with representative [Reference](../reference) data, considering various [Observation](../observation) conditions, ensuring the quality and traceability of the [Reference](../reference) data used.
+Validation aims to verify that the specified requirements are achieved or compliant. This involves comparing  mission products with representative [Reference](../reference) [Data](../data), considering various [Observation](../observation) conditions, ensuring the quality and [Traceability](../traceability) of the [Reference](../reference) [Data](../data) used.
 
 ### Notes 
-- In this part of ISO 19159, the term validation is used in a limited sense and only relates to the validation of calibration data in order to control their change over time.
+- In this part of ISO 19159, the term validation is used in a limited sense and only relates to the validation of [Calibration](../calibration) [Data](../data) in order to control their change over time.
 
 ### Examples 
 
@@ -37,7 +37,7 @@ ___
 The assurance that a product, service, or system meets the needs of the customer and other identified stakeholders. It often involves acceptance and suitability with external customers.
 
 ### Notes 
-- In this part of ISO 19159, the term validation is used in a limited sense and only relates to the validation of calibration data in order to control their change over time.
+- In this part of ISO 19159, the term validation is used in a limited sense and only relates to the validation of [Calibration](../calibration) [Data](../data) in order to control their change over time.
 
 ### Examples 
 

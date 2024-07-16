@@ -12,7 +12,7 @@ Provision of objective evidence that a given item fulfils specified requirements
 - When applicable, [Measurement](../measurement) [Uncertainty](../uncertainty) should be taken into consideration.
 - The item may be, e.g. a process, [Measurement](../measurement) procedure, material, compound, or measuring system.
 - The specified requirements may be, e.g. that a manufacturer's specifications are met.
-- Verification should not be confused with calibration. Not every verification is a [Validation](../validation).
+- Verification should not be confused with [Calibration](../calibration). Not every verification is a [Validation](../validation).
 
 ### Examples 
 
@@ -36,7 +36,7 @@ ___
 
 ## 3 Definition
 
-Verification serves as a means to evaluate the reliability of the data in the absence of a [Reference](../reference) dataset, allowing for an assessment of its standalone performance. It involves confirming the consistency and internal coherence of the data without direct comparison to external [Reference](../reference) sources.
+Verification serves as a means to evaluate the reliability of the [Data](../data) in the absence of a [Reference](../reference) dataset, allowing for an assessment of its standalone performance. It involves confirming the consistency and internal coherence of the [Data](../data) without direct comparison to external [Reference](../reference) sources.
 
 ### Notes 
 

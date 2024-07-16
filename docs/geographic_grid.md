@@ -6,7 +6,7 @@ title: Geographic Grid
 
 ## 1 Definition
 
-(Regular) grid based on a geographic coordinate reference system (CRS).
+(Regular) [Grid](../grid) based on a geographic coordinate [Reference](../reference) system (CRS).
 
 ### Notes 
 

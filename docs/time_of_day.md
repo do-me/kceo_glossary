@@ -6,7 +6,7 @@ title: Time of Day
 
 ## 1 Definition
 
-The time of the day that the variable or parameter is observed or simulated by a model.
+The time of the day that the variable or parameter is observed or simulated by a [Model](../model).
 
 ### Notes 
 

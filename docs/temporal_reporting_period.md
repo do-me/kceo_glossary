@@ -6,7 +6,7 @@ title: Temporal Reporting Period
 
 ## 1 Definition
 
-The time period used for reporting and for which the information should be aggregated from the native temporal resolution.
+The time [Period](../period) used for reporting and for which the [Information](../information) should be aggregated from the native [Temporal Resolution](../temporal resolution).
 
 ### Notes 
 

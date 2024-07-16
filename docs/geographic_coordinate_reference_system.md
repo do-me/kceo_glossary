@@ -6,7 +6,7 @@ title: Geographic Coordinate Reference System
 
 ## 1 Definition
 
-Coordinate reference system (CRS) that has a geodetic reference frame and an ellipsoidal coordinate system.
+Coordinate [Reference](../reference) system (CRS) that has a geodetic [Reference](../reference) frame and an ellipsoidal coordinate system.
 
 ### Notes 
 
