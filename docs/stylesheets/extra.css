@@ -291,3 +291,11 @@ div.doc-contents:not(.first) {
        url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../stylesheets/fonts/roboto-mono-v22-latin-ext_latin-700.svg#RobotoMono') format('svg'); /* Legacy iOS */
 }
+
+.md-container {
+  overflow: auto;
+}
+
+.mermaid {
+  width: 5000px;
+}
