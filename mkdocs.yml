@@ -7,6 +7,7 @@ nav:
     - Home: index.md
     - Glossary:
         - Introduction: introduction.md
+        - Concepts: concepts.md
         - Dependency Graph: mermaid.md
         - Topology: glossary_topology.md
         - Tags: tags.md
