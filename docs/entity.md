@@ -9,10 +9,9 @@ title: Entity
 Something that has separate and distinct existence and objective or conceptual reality.
 
 ### Notes 
-- the observed [Value](../value) is usually complemented by an [Uncertainty](../uncertainty)
-- an [Observation](../observation) (results) represents a [Sample](../sample) of [Phenomenon](../phenomenon) (otherwise it would be identical with the [Phenomenon](../phenomenon)) 
+
 
 ### Examples 
 
 ### Sources
-- [ISO 19119:2016](https://www.iso.org/standard/59221.html), 4.1.6
+- ISO 19119:2016, 4.1.6
