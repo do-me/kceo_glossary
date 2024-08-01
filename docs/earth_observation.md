@@ -14,4 +14,4 @@ A science domain dealing with technologies and methods of collecting and analyzi
 ### Examples 
 
 ### Sources
-- Modified GEO definition Resources | GEO (earthobservations.org)
+- Modified GEO definition [GEO (earthobservations.org)](https://earthobservations.org/resources#key)
