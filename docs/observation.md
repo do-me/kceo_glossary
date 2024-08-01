@@ -15,4 +15,4 @@ Observation (the process) is the act of determining the [Value](../value) of [Pr
 ### Examples 
 
 ### Sources
-- Own
+- KCEO
