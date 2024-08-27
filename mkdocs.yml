@@ -12,46 +12,24 @@ nav:
         - Topology: glossary_topology.md
         - Tags: tags.md
         - Terms:
-            - Observation: observation.md
-            - In-Situ Observation: in-situ_observation.md
-            - Entity: entity.md
-            - Information: information.md
-            - Location: location.md
-            - Measurement: measurement.md
-            - Measurand: measurand.md
-            - Uncertainty: uncertainty.md
-            - Object: object.md
-            - Period Identifier: period_identifier.md
-            - Phenomenon: phenomenon.md
-            - Place: place.md
-            - Position: position.md
-            - Property: property.md
-            - Quantity: quantity.md
-            - Reference: reference.md
-            - Remote Sensing: remote_sensing.md
-            - Representativeness: representativeness.md
-            - Sample: sample.md
-            - Sensor: sensor.md
-            - Copernicus Service Provider: copernicus_service_provider.md
-            - Expanded Uncertainty: expanded_uncertainty.md
-            - Standard Uncertainty: standard_uncertainty.md
-            - Trait: trait.md
-            - User: user.md
-            - Validation: validation.md
-            - Verification: verification.md
             - Ancillary data: ancillary_data.md
+            - Anthroposphere: anthroposphere.md
             - Area of interest: area_of_interest.md
             - Auxiliary data: auxiliary_data.md
             - Band central wavelength: band_central_wavelength.md
             - Baseline: baseline.md
+            - Biosphere: biosphere.md
             - Calibration: calibration.md
+            - Cartographic projection: cartographic_projection.md
             - Cell: cell.md
             - Characteristic: characteristic.md
             - Classification system: classification_system.md
             - Classification system levels: classification_system_levels.md
             - Climate projection: climate_projection.md
             - Confidence interval: confidence_interval.md
+            - Copernicus Service Provider: copernicus_service_provider.md
             - Coverage interval: coverage_interval.md
+            - Cryosphere: cryosphere.md
             - Data: data.md
             - Data access: data_access.md
             - Data format: data_format.md
@@ -63,6 +41,8 @@ nav:
             - Earth Spheres: earth_spheres.md
             - Earth observation: earth_observation.md
             - Environmental Process: environmental_process.md
+            - Entity: entity.md
+            - Expanded Uncertainty: expanded_uncertainty.md
             - Feature: feature.md
             - Forecast range: forecast_range.md
             - Geocoding: geocoding.md
@@ -75,18 +55,32 @@ nav:
             - Geopositioning: geopositioning.md
             - Georectifying: georectifying.md
             - Geospatial data: geospatial_data.md
+            - Geosphere: geosphere.md
             - Grid: grid.md
+            - Hydrosphere: hydrosphere.md
             - Impact: impact.md
+            - In-Situ Observation: in-situ_observation.md
+            - Information: information.md
             - Laboratory observation: laboratory_observation.md
             - Latency: latency.md
+            - Lead time: lead_time.md
+            - Lithosphere: lithosphere.md
+            - Location: location.md
             - Location error: location_error.md
+            - Measurement: measurement.md
             - Measurement uncertainty: measurement_uncertainty.md
+            - Measurand: measurand.md
             - Minimum Mapping Unit: minimum_mapping_unit.md
             - Minimum Mapping Width: minimum_mapping_width.md
             - Model: model.md
+            - Object: object.md
+            - Observation: observation.md
             - Outcome: outcome.md
             - Path: path.md
             - Period: period.md
+            - Period Identifier: period_identifier.md
+            - Phenomenon: phenomenon.md
+            - Place: place.md
             - Policy: policy.md
             - Policy cycle: policy_cycle.md
             - Policy file: policy_file.md
@@ -94,9 +88,17 @@ nav:
             - Policy milestone: policy_milestone.md
             - Policy objective: policy_objective.md
             - Policy target: policy_target.md
+            - Position: position.md
+            - Property: property.md
             - Quality indicator: quality_indicator.md
+            - Quantity: quantity.md
+            - Reference: reference.md
+            - Remote Sensing: remote_sensing.md
             - Replicability: replicability.md
             - Reproducibility: reproducibility.md
+            - Representativeness: representativeness.md
+            - Sample: sample.md
+            - Sensor: sensor.md
             - Spatial completeness: spatial_completeness.md
             - Spatial consistency: spatial_consistency.md
             - Spatial extent: spatial_extent.md
@@ -106,6 +108,7 @@ nav:
             - Spectral band: spectral_band.md
             - Spectral resolution: spectral_resolution.md
             - Stability: stability.md
+            - Standard Uncertainty: standard_uncertainty.md
             - Temporal consistency: temporal_consistency.md
             - Temporal extent: temporal_extent.md
             - Temporal reporting period: temporal_reporting_period.md
@@ -117,9 +120,14 @@ nav:
             - Time of year: time_of_year.md
             - Timeliness: timeliness.md
             - Traceability: traceability.md
+            - Trait: trait.md
+            - Uncertainty: uncertainty.md
             - Update frequency: update_frequency.md
+            - User: user.md
             - User Interface: user_interface.md
             - Value: value.md
+            - Validation: validation.md
+            - Verification: verification.md
             - Vertical levels: vertical_levels.md
 
     - Changelog: changelog.md
