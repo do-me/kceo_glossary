@@ -4,7 +4,7 @@ site_author: KCEO
 site_description: KCEO
 
 nav:
-    - Home: index.md
+    # - Home: index.md
     - Glossary:
         - Introduction: introduction.md
         - Concepts: concepts.md
@@ -189,6 +189,9 @@ extra_css:
 repo_url: https://github.com/do-me/kceo_glossary
 repo_name: do-me/kceo_glossary
 edit_uri: ./edit/main/docs
+
+# Copyright
+copyright: Copyright &copy; Knowledge Centre on Earth Observation
 
 markdown_extensions:
   - attr_list
